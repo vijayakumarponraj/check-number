@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int n,i;
-scanf("%d",&n);
-if(n>0)
+int a,i;
+scanf("%d",&a);
+if(a>0)
 {
- for(i=1;i<=n;i++)
+ for(i=1;i<=a;i++)
  {
  printf("Hello");
- if(i!=n)
+ if(i!=a)
  printf("\n");
  }
 }
