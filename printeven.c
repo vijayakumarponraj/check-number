@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int a,b,temp;
-scanf("%d %d",&a,&b);
-for(int i=a+1;i<b;i++)
+int s,e,count;
+scanf("%d %d",&s,&e);
+for(int i=s+1;i<e;i++)
 {
     if(i%2==0)
     {
