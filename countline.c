@@ -2,15 +2,15 @@
 int main()
 {
    
-char str[50];
+char s[50];
    
 int i,ans=0;
    
-gets(str);
+gets(s);
    
-for(i=0;str[i];i++)
+for(i=0;s[i];i++)
    
-if(str[i]=='.')
+if(s[i]=='.')
    
 ans++;
    
