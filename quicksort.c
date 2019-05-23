@@ -1,28 +1,29 @@
 #include<stdio.h>
-void main()
+int main()
 {
-int s,a[200],i,k,tem;
-scanf("%d",&s);
-for(i=0;i<s;i++)
+int n,a[200],i,j,tem;
+scanf("%d",&n);
+for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
 
 
 }
-for(i=0;i<s;i++)
+for(i=0;i<n;i++)
 {
-    for(k=i+1;k<s;k++)
+    for(j=i+1;j<n;j++)
     {
-        if(a[i]>a[k])
+        if(a[i]>a[j])
         {
             tem=a[i];
-            a[i]=a[k];
-            a[k]=tem;
+            a[i]=a[j];
+            a[j]=tem;
         }
         }
     }
-    for(i=0;i<s;i++)
+    for(i=0;i<n;i++)
     {
         printf("%d ",a[i]);
     }
     }
+
