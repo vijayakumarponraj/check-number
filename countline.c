@@ -1,19 +1,17 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 int main()
 {
-   
-char s[50];
-   
-int i,ans=0;
-   
-gets(s);
-   
-for(i=0;s[i];i++)
-   
-if(s[i]=='.')
-   
-ans++;
-   
-printf("%d",ans);
-
+    char ch[500];
+    int i,n,s=1;
+    gets(ch);
+    n=strlen(ch);
+    for(i=0;i<n;i++)
+        {
+    if(ch[i]== '.')
+         {
+            s++;
+        }
+    }
+    printf("%d",s);
 }
