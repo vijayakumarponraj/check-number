@@ -1,8 +1,8 @@
 #include <stdio.h>
-    void main()
-    {
+int main()
+{
     char n;
-    scanf("%s",&n);
+    scanf("%c",&n);
     if(isdigit(n))
     {
         printf("yes");
@@ -11,4 +11,5 @@
     {
         printf("No");
     }
-    }
+ return 0;   
+}
