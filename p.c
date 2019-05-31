@@ -1,22 +1,24 @@
-
 #include <stdio.h>
-int main()
-{
-    int n, rev = 0, r, ol;
+#include <string.h>
 
-     scanf("%d", &n);
-
-    ol = n;
-    while( n!=0 )
-    {
-        r = n%10;
-        rev = rev*10 + r;
-        n /= 10;
-    }
-    if (ol == rev)
-        printf("%d Yes");
-    else
-        printf("%d No");
+int main(){
+    char str1[20];
+    int i, length;
+    int flag = 0;
+    scanf("%s", str1);
+    length = strlen(str1);
+    for(i=0;i < length ;i++){
+        if(str1[i] != str1[length-i-1]){
+            flag = 1;
+            break;
+   }
+}
     
+    if (flag) {
+        printf("no");
+    }    
+    else {
+        printf("yes");
+    }
     return 0;
 }
