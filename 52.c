@@ -7,7 +7,7 @@ int main()
     switch(n)
     {
         case 1:
-        printf("one");
+        printf("One");
         break;
         
         case 2:
