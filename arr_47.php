@@ -1,2 +1,2 @@
-$a=array(10,30,25);
-echo min($a)," <br> ", max($a);
+$a=array(34,35,36);
+echo "Minimum=",min($a),"<br>","Maximum=",max($a);
