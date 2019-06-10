@@ -45,9 +45,6 @@ int main()
         case 10:
         printf("Ten");
         break;
-        
-        default:
-        printf("wrong");
     }
     
     return 0;
